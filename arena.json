@@ -2,6 +2,7 @@
   "name": "CodeSentinel AI",
   "description": "Privacy-first multi-agent code security and quality analyzer.",
   "category": "AI Developer Tools",
+  "track":"AI triage",
   "repository": "https://github.com/ashishmuppalla14/CodeSentinel-AI",
   "deployed_url": "https://codesentinel-ai-ashish.streamlit.app/"
 }
