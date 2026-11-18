@@ -1,8 +1,7 @@
 {
-  "name": "CodeSentinel AI",
-  "description": "Privacy-first multi-agent code security and quality analyzer.",
-  "category": "AI Developer Tools",
-  "track":"AI triage",
-  "repository": "https://github.com/ashishmuppalla14/CodeSentinel-AI",
-  "deployed_url": "https://codesentinel-ai-ashish.streamlit.app/"
+  "language": "python",
+  "install": "python -m pip install -r requirements.txt pytest",
+  "test": "python -m pytest -v",
+  "start": "python -m streamlit run app.py --server.port 8000 --server.address 0.0.0.0 --server.headless true",
+  "port": 8000
 }
